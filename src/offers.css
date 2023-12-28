@@ -1,0 +1,55 @@
+.offers{
+    margin: 1.5rem auto;
+    
+}
+.offers .container{
+    
+    border-top: 1px solid #c4c4ce;
+}
+
+.offer-row-1 {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.offer-row-1 div {
+  width: auto !important; /*to handle bootstrap default design */
+}
+.others {
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+}
+.others p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #fd5056;
+    padding: .4rem;
+    margin:0;
+}
+.others p:hover{
+    background-color: #dfdfe7;
+    cursor: pointer;
+    border-radius: .3rem;
+}
+@media(max-width:768px){
+    .others p{
+        font-size: .875rem;
+        line-height: 1.25rem;
+    }
+}
+.carousel-inner {
+    transition: transform 2s ease-in-out;
+    margin: 0.5rem auto;
+  }
+.carousel-item> .d-flex> img{
+    width: 45%;
+    
+}
+.carousel-item .d-flex{
+    justify-content: center;
+}
+.img-right{
+    margin-right: .5rem;
+}

@@ -1,0 +1,32 @@
+@keyframes chatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.chat {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fd5056;
+  cursor: pointer;
+  position: absolute;
+  bottom: 14rem;
+  right: 3rem;
+  z-index: 0;
+  animation: chatAnimation 2s ease-in-out 0s infinite;
+}
+
+.chat-icon {
+  color: #fff;
+  font-size: 1.85rem;
+}

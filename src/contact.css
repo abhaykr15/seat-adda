@@ -1,0 +1,16 @@
+/* Add this section to update the styles for the new page */
+.contact-1 h2,
+.contact-1 h4 {
+  color: brown;
+}
+
+.contact-1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-1 li {
+  margin-bottom: 8px;
+}
+
+/* Add additional styles as needed */

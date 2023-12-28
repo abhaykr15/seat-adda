@@ -1,0 +1,15 @@
+.textDetail {
+    padding: 2rem 2rem;
+}
+.textDetail p{
+    font-weight: 300;
+}
+/* @media (max-width:992px){
+    .textDetail{
+       padding: auto;
+    }
+} */
+.textDetail > .shadow{
+    border-top: 1px solid #c4c4ce;
+    padding: 2rem 2rem;
+}

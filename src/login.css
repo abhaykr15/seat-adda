@@ -1,0 +1,20 @@
+/* Add this section to update the styles for the new pages */
+.my-login h2 {
+  color: brown;
+}
+
+.my-login .form-label {
+  color: brown;
+}
+
+.my-login .btn-primary {
+  background-color: brown;
+  border-color: brown;
+}
+
+.my-login .btn-primary:hover {
+  background-color: #964b00; /* Darker brown on hover */
+  border-color: #964b00;
+}
+
+/* Add additional styles as needed */

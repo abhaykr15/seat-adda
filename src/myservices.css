@@ -1,0 +1,16 @@
+/* Add this section to update the styles for the new page */
+.my-services-1 h2,.my-services-1  h4 {
+    color: brown;
+  }
+  
+  .my-services-1 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .my-services-1 li {
+    margin-bottom: 8px;
+  }
+  
+  /* Add additional styles as needed */
+  

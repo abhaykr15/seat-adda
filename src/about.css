@@ -1,0 +1,21 @@
+.my-about {
+    background-color: #ffffff;
+    color: #7d7d85;
+  }
+  
+  .my-about .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  
+  .my-about h2, .my-about h4 {
+    color: brown;
+  }
+  
+  .my-about ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Add additional styles as needed */
+  

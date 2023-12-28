@@ -1,0 +1,17 @@
+/* Add this section to update the styles for the new page */
+.faq-11 h2,
+.faq-11 h4,
+.faq-11 h5 {
+  color: brown;
+}
+
+.faq-11 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-11 li {
+  margin-bottom: 8px;
+}
+
+/* Add additional styles as needed */

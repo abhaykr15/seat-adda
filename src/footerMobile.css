@@ -1,0 +1,23 @@
+.footer-m{
+    position: fixed;
+    bottom: 0px;
+    background-color: #fff;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.footer-list span {
+  font-size: 1.75rem;
+}
+.footer-list:hover {
+  color: #fd5056;
+}
+@media (min-width:769px){
+    .footer-m{
+        display: none;
+    }
+}

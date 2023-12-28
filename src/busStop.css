@@ -1,0 +1,40 @@
+.busStop {
+  padding: 1rem 2rem;
+}
+.busStop > .shadow {
+  padding: 2rem;
+  border-top: 1px solid #c4c4ce;
+}
+.get-notified {
+  border-left: 0.3rem solid #fd5056;
+  text-align: left;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0.5rem auto;
+  padding: 0.7rem;
+}
+.store-logo {
+  width: 8rem;
+}
+.busStop h3 {
+  font-size: 1.5rem;
+}
+.busStop-row-2 {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .bus-stop-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bus-stop-img-container img {
+    width: 100%;
+  }
+  .busStop-row-2 {
+    text-align: left;
+  }
+}

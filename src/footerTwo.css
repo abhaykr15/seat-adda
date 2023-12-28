@@ -1,0 +1,21 @@
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem 2rem;
+    background-color: #666769;
+    color: #fff;
+}
+.footer-2 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 .5rem;
+}
+.footer-2 p{
+    margin:0;
+}
+@media (max-width:768px){
+    .footer-2{
+        display: none;
+    }
+}

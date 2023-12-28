@@ -1,0 +1,20 @@
+.faqs {
+  padding: 2rem;
+  margin: 1rem auto;
+}
+.faqs .shadow {
+  padding: 1rem;
+  border-top: 1px solid #c4c4ce;
+}
+.faqs h2 {
+  font-weight: 600;
+  
+}
+.faqs h3 {
+  font-weight: 500;
+  font-size: larger;
+  cursor: pointer;
+}
+.faqs > .shadow > div {
+  border-bottom: 2px solid #666769;
+}

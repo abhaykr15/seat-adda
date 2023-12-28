@@ -1,0 +1,20 @@
+/* Add this section to update the styles for the new pages */
+.my-register h2 {
+  color: brown;
+}
+
+.my-register .form-label {
+  color: brown;
+}
+
+.my-register .btn-primary {
+  background-color: brown;
+  border-color: brown;
+}
+
+.my-register .btn-primary:hover {
+  background-color: #964b00; /* Darker brown on hover */
+  border-color: #964b00;
+}
+
+/* Add additional styles as needed */

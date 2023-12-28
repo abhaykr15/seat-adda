@@ -1,0 +1,55 @@
+.my-form h1 {
+  color: #fff;
+}
+.form-arrow {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 24;
+  color: #fd5056;
+}
+
+.form-location {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 24;
+  color: #fd5056;
+}
+.form-calendar {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 24;
+  color: #fd5056;
+}
+.transit-arrow {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+  color: #fff;
+  background-color: #fd5056;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-form {
+  width: 100%;
+  background-image: url("./img/bus-banner.c5bd49fe08f36b008b1d.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2.5rem;
+  z-index: 100;
+}
+
+.form-button-container button {
+  margin: 4px;
+}
+/* .form-sub-container{
+    display: flex;
+    align-items: center;
+} */
+
+/* to hide arrow sign in select tag */
+.form-select::-ms-expand,
+.form-select::-webkit-select-menu-button {
+  display: none;
+}
